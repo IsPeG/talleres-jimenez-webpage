@@ -2,10 +2,13 @@
 
     --color-principal: #7F7FD5;
     --color-secundario:#0c171b;
+    --gradient: -webkit-linear-gradient(left, #7F7FD5, #55dad1);
 
 }
 
 body {
+
+    font-family: "Montserrat";
 
     background: url(../img/bg.jpg) no-repeat center center fixed;
 
@@ -28,20 +31,24 @@ body {
 
 h1 {
 
+    font-family: "Sora";
     /* color: #264653; */ 
-    background: -webkit-linear-gradient(left, #7F7FD5, #91eae4);
+    background: var(--gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
+    scroll-margin-top: 3rem;
 
 }
 
 h2 {
     /* color: #264653; */ 
-    background: -webkit-linear-gradient(left, #7F7FD5, #91eae4);
+    background: var(--gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2.9rem;
+    scroll-margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .menu {
@@ -50,6 +57,8 @@ h2 {
     font-size: 0.9rem;
 
     position: fixed;
+
+    border-bottom: 2px solid #86a9e7;
 
 }
 
@@ -74,7 +83,7 @@ h2 {
     width: 80%;
     height: auto;
     max-width: 600px;
-    min-width: 350px;
+    min-width: 25rem;
 
 }
 
@@ -84,7 +93,7 @@ h2 {
     background-color: rgb(255, 255, 255);
 
     width: 80%;
-    min-width: 375px;
+    min-width: 25rem;
     margin: 0 auto;
 
 }
@@ -113,11 +122,22 @@ h2 {
 
 }
 
+#instagram-container {
+    color: white;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    cursor: pointer;
+    /* -webkit-background-clip: text; */
+    /* background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+}
+
 .tarjeta-info {
 
+    /* padding-top: 2rem !important; */
     max-width: 23rem;
-    min-width: 20rem;
-    height: 300px;
+    min-width: 24rem;
+    min-height: 20rem;
+    height: auto;
     background-color: #f2f2f2;
     border-radius: 10px;
 
@@ -127,7 +147,7 @@ h2 {
 
 .titulo-tarjeta-info {
 
-    font-size: 30px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: var(--color-secundario);
 
@@ -202,4 +222,22 @@ a {
 
 a:hover {
     color: #789ad4;
+}
+
+.contact-us-container {
+    height: 4rem;
+    width: 24rem;
+    background-color: #f2f2f2;
+    border-radius: 0.5rem;
+}
+
+.col img {
+    height: 100%;
+    width: 100%;
+}
+
+.img_taller {
+    max-width: 26rem;
+    min-width: 24rem;
+    border-radius: 0.5rem;
 }

@@ -9,15 +9,15 @@ function loadQueHacemosItems() {
 
     function getSection(title, text, image_src) {
         return `
-            <div class="p-4 m-2 my-5 tarjeta-info sombra">
-                <div class="d-flex align-items-center">
+            <div class="p-4 m-2 my-3 tarjeta-info">
+                <div class="d-flex align-items-center" style="height: 7rem">
                     <div class="icono me-2">
                         <img src="${image_src}" height="50" width="50">
                     </div>
                     <span class="titulo-tarjeta-info ms-2">${title}</span>
                 </div>
         
-                <p class="pt-5">${text}</p>
+                <p class="pt-4">${text}</p>
             </div>
         `;
     }
@@ -36,7 +36,7 @@ function loadPricesItems() {
         return `
             <tr>
                 <td>${name}</td>
-                <td>${price}€</td>
+                <td>${price}</td>
             </tr>
         `;
     }

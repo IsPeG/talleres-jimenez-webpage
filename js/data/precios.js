@@ -1,28 +1,29 @@
 var precios = {
     'childs' : [ 
         {
-            'name': 'Anticongelante',
-            'price': '13',
+            'name': 'Pulido de faros',
+            'price': '25€/ Faro',
         },
         {
-            'name': 'Anticongelante',
-            'price': '14',
+            'name': 'Recarga de aire acondicionado',
+            'price': 'Desde 55€',
         },
         {
-            'name': 'Anticongelante',
-            'price': '15',
+            'name': 'Montaje y equilibrado de neumáticos',
+            'price': '13€/ Rueda',
         },
         {
-            'name': 'Anticongelante',
-            'price': '16',
+            'name': 'Mecánica rápida',
+            'price': '30€',
         },
         {
-            'name': 'Anticongelante',
-            'price': '17',
+            'name': 'Pre ITV',
+            'price': '20€',
         },
         {
-            'name': 'Anticongelante',
-            'price': '18',
+            'name': 'Revisión de filtros',
+            'price': 'Desde 60€',
         },
-    ]
+    ]    
+
 }

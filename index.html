@@ -4,6 +4,8 @@
     <head>
         
         <title>Talleres Jimenez</title>
+        <meta name="title" content="Talleres Jimenez">
+        <meta name="description" content="En Talleres Jimenez tenemos una decidida orientación a la excelencia, al trabajo bien hecho y el trato cercano para proporcionarte la mejor experiencia posible en el mantenimiento y reparación de tu vehículo.">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,7 +22,11 @@
         <script src="js/main.js"></script>
         <!-- BoxIcons -->
         <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        <!-- Zoomist -->
+        <script src="https://cdn.jsdelivr.net/gh/cotton123236/zoomist@latest/dist/zoomist.min.js"></script>
         <!-- CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sora">
         <link rel="stylesheet" href="css/stylesheet.css">
 
         <link rel="icon" href="img/tj.png">
@@ -28,11 +34,6 @@
     </head>
 
     <body class="m-0 p-0 w-100 h-100">
-
-        <!-- Boton hacia arriba -->
-        <!-- <a class="ir-arriba p-3" title="Volver arriba">
-            <i class='bx bxs-up-arrow-circle'></i>
-        </a> -->
 
         <!-- Menu -->
         <nav class="menu p-2 d-flex justify-content-around w-100">
@@ -49,16 +50,16 @@
         <!-- Body -->
         <div class="p-5 contenedor-principal sombra">
 
-            <h1 class="ms-3 text-center">Bienvenido a Talleres Jimenez</h1>
+            <h1 class="text-center">Bienvenido a Talleres Jimenez</h1>
             <div class="d-flex flex-row pb-5 justify-content-evenly mt-4 contenedor-principal-secciones" style="flex-flow: row wrap">
                 
                 <div class="mb-4">
                     <p style="max-width: 50rem;">
-                        1 En Talleres Jimenez tenemos una decidida orientación a la excelencia, al trabajo bien hecho y el trato cercano para proporcionarte la mejor experiencia posible en el mantenimiento y reparación de tu vehículo. Nos mueve la excelencia en calidad y servicio, nuestra razón de ser es la de proporcionar una experiencia de taller que colme y supere tus expectativas.
+                        En Talleres Jimenez tenemos una decidida orientación a la excelencia, al trabajo bien hecho y el trato cercano para proporcionarte la mejor experiencia posible en el mantenimiento y reparación de tu vehículo. Nos mueve la excelencia en calidad y servicio, nuestra razón de ser es la de proporcionar una experiencia de taller que colme y supere tus expectativas.
                     </p>
                 </div> 
 
-                <div>
+                <div class="text-center">
                     <img src="img/photos/photo2.jpg" alt="taller exterior 1" style="width: 300px;">
                     <img src="img/photos/photo4.jpg" alt="taller exterior 2" style="width: 300px;">
                     <img src="img/photos/photo5.jpg" alt="taller exterior 3" style="width: 300px;">
@@ -68,72 +69,67 @@
 
             
 
-            <h1 id="1" class="ms-3 text-center mt-2">¿Qué hacemos?</h1>
+            <h1 id="1" class="text-center mt-5">¿Qué hacemos?</h1>
 
-            <div id="what_we_do" class="d-flex flex-row bd-highlight justify-content-evenly contenedor-principal-secciones">
+            <div id="what_we_do" class="d-flex flex-row bd-highlight justify-content-center contenedor-principal-secciones">
 
             </div>
 
-            <h1 id="2" class="ms-3 text-center mt-2">Precios</h1>
+            <h1 id="2" class="text-center mt-5">Precios</h1>
             <div class="d-flex flex-row pb-5 justify-content-evenly mt-4 contenedor-principal-secciones" style="flex-flow: row wrap">
                 
-                <table class="table table-striped">
-                    <tbody id="price_table">
+                <table class="table" style="max-width: 60rem;min-width: 24rem;">
+                    <thead style="--bs-table-bg: #86a9e7; color: white">
+                        <th>Servicio</th>
+                        <th>Precio</th>
+                    </thead>
+                    <tbody id="price_table" style="--bs-table-bg: #f2f2f2">
                         
                     </tbody>
                 </table> 
 
             </div>
 
-            <h2 id="3" class="ms-3 text-center mt-2">Contáctanos</h2>
+            <h1 id="4" class="text-center mt-5">Fotos</h1>
+
+            <div class="mt-4 d-flex flex-row justify-content-center contenedor-principal-secciones">
+                
+                <img class="d-block img_taller m-2" src="img/photos/photo13.jpg" alt="">
+                <img class="d-block img_taller m-2" src="img/photos/photo11.jpg" alt="">
+                <img class="d-block img_taller m-2" src="img/photos/photo12.jpg" alt="">
+                <img class="d-block img_taller m-2" src="img/photos/photo14.jpg" alt="">
+                <img class="d-block img_taller m-2" src="img/photos/photo3.jpg"  alt="">
+                <img class="d-block img_taller m-2" src="img/photos/photo15.jpg" alt="">
+
+            </div>
+
+            <h2 id="3" class="text-center mt-5">Contáctanos</h2>
             <div class="d-flex flex-row pb-5 justify-content-evenly mt-4 contenedor-principal-secciones" style="flex-flow: row wrap">
                 
                 <div class="seccion-1 mb-4">
-                    <p class="mb-4">
-                        8 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac urna a turpis porttitor pulvinar. Vestibulum mattis ut turpis nec luctus. Praesent sollicitudin ut leo quis euismod. Pellentesque at rutrum augue. Curabitur eget varius lorem, vel luctus augue. In eu velit sit amet tortor porttitor vehicula ac vel est. Nunc fermentum elementum eros, sed venenatis augue facilisis ut.
-                    </p>
-                    <p><i class='bx bxs-phone'></i> Tlf. 656536364</p>
-                    <p><i class='bx bx-mail-send'></i> Envíanos un correo</p>
-                    <p><i class='bx bxl-instagram-alt'></i><a href="https://www.instagram.com/talleres_jimenez/"> Nuestra cuenta de instagram</a></p>
+
+                    <div class="flex-column">
+                        <div class="contact-us-container mb-3 d-flex align-items-center px-3" id="instagram-container">
+                            Instagram <i class='bx bxl-instagram' style="font-size: 1.5rem"></i>
+                        </div>
+    
+                        <div class="contact-us-container mb-3 d-flex align-items-center px-3">
+                            Teléfono <i class='bx bx-phone' style="font-size: 1.3rem"></i>: 635 81 20 63
+                        </div>
+    
+                        <div class="contact-us-container d-flex align-items-center px-3">
+                            Email <i class='bx bx-envelope' style="font-size: 1.3rem"></i>: tallerescarsjimenez@gmail.com
+                        </div>
+                    </div>
+                   
                 </div>
 
                 <div class="seccion-3">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.744183152011!2d-0.546592884629117!3d39.58791547947014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd605fe1fe5ae149%3A0xd45a14553e4710c5!2sTALLERES%20JIMENEZ!5e0!3m2!1ses!2ses!4v1632365294892!5m2!1ses!2ses" height="450" width="345" allowfullscreen="" loading="lazy" class="border"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.744183152011!2d-0.546592884629117!3d39.58791547947014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd605fe1fe5ae149%3A0xd45a14553e4710c5!2sTALLERES%20JIMENEZ!5e0!3m2!1ses!2ses!4v1632365294892!5m2!1ses!2ses" height="450" width="384" allowfullscreen="" loading="lazy" class="border"></iframe>
                 </div>
 
             </div>
-
-            <h1 id="4" class="ms-3 text-center">Fotos</h1>
-            <div class="mt-4 d-flex flex-row justify-content-evenly">
-                <div id="carouselExampleControls" class="carousel slide carousel-fade w-75 border" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="img/photos/photo6.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/photos/photo9.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/photos/photo5.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/photos/photo4.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/photos/photo2.jpg" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev prev-bg" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next next-bg" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-
+                
         </div>
 
     </body>
